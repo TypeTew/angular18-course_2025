@@ -6,11 +6,14 @@ import { UserComponent } from './user/user.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  // imports: [RouterOutlet],
-  imports: [HeaderComponent , UserComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+  imports: [HeaderComponent , UserComponent],
+
 })
 export class AppComponent {
   title = 'angular-app-course';
 }
+
+
+
